@@ -7,7 +7,6 @@ for x in range(5):
      2
      3
      4
-     5
 """
 
 # Loop - Lists
