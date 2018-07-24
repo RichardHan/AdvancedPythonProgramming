@@ -24,7 +24,7 @@ countries = {
     'PH': 'Philippines'
 }
 for key, value in countries.items():
-    print('%s: %s' % (key, value))
+    print '%s: %s' % (key, value)
 """
 TW: Taiwan
 PH: Philippines
