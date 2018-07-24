@@ -12,6 +12,10 @@ class User(object):
 test_user = User()
 print test_user.name
 print test_user.is_authorized()
+"""
+Anonymous
+False
+"""
 
 # Class Inheritance
 class SuperUser(User):
@@ -20,7 +24,10 @@ class SuperUser(User):
 richard = SuperUser("Richard")
 print richard.name
 print richard.is_authorized()
-
+"""
+Richard
+True
+"""
 # Python way
 # No interface
 # No real private attributes/functions
@@ -32,8 +39,16 @@ print richard.is_authorized()
 import datetime
 print datetime.datetime.now()
 print datetime.timedelta(days=30)
+"""
+2018-07-25 00:11:14.968000
+30 days, 0:00:00
+"""
 
 # import datetime and addes data and timedelta into namespace
 from datetime import datetime , timedelta
 print datetime.now()
 print timedelta(days=25)
+"""
+2018-07-25 00:11:14.968000
+25 days, 0:00:00
+"""
