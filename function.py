@@ -7,7 +7,7 @@ def my_hello_function():
 # Function Arguments
 def add_fun(x, y):
     return x + y
-print (add_fun(20,5))
+print add_fun(20,5)
 """
 25
 """
